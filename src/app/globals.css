@@ -5,3 +5,7 @@
 body {
   @apply w-full xl:px-[10vh];
 }
+
+.subtitle {
+  @apply text-slate-400;
+}
