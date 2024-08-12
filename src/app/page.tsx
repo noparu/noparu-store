@@ -5,7 +5,7 @@ const HomePage = () => {
     return (
         <div className="w-full">
             {/* Banner Section */}
-            <div className="w-full bg-zinc-200 h-[300px]"></div>
+            <img src="https://static.vecteezy.com/system/resources/thumbnails/002/006/774/small/paper-art-shopping-online-on-smartphone-and-new-buy-sale-promotion-backgroud-for-banner-market-ecommerce-free-vector.jpg" alt="noparu store" className='w-full' />
 
             {/* Category Section */}
             <div className="w-full">
