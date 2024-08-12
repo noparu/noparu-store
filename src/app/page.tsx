@@ -50,7 +50,13 @@ const HomePage = () => {
                 </div>
 
                 {/* Curated For You Content */}
-                <div className="w-full flex items-center px-[3vh] sm:px-[5vh] gap-[2vh] overflow-x-auto">
+                <div className="w-full flex items-center px-[3vh] sm:px-[5vh] gap-[5vh] overflow-x-auto">
+                    <Card />
+                    <Card />
+                    <Card />
+                    <Card />
+                    <Card />
+                    <Card />
                     <Card />
                 </div>
             </div>
