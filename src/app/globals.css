@@ -3,5 +3,5 @@
 @tailwind utilities;
 
 body {
-  @apply w-full px-[10vh];
+  @apply w-full xl:px-[10vh];
 }

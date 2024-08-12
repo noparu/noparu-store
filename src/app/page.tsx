@@ -15,7 +15,7 @@ const HomePage = () => {
                 </div>
 
                 {/* Category Content */}
-                <div className="w-full flex items-center px-[5vh] gap-[2vh]">
+                <div className="w-full flex items-center px-[5vh] gap-[2vh] overflow-x-auto">
                     {/* Category Bubble */}
                     <div className="flex flex-col items-center gap-[1vh]">
                         <div className="w-[9vh] h-[9vh] rounded-full bg-zinc-200"></div>
