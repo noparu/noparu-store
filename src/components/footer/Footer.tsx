@@ -5,7 +5,7 @@ const Footer = () => {
         <div className='w-full flex flex-col px-[5vh] mt-10 border-t bg-zinc-100'>
             <div className="w-full flex flex-col sm:flex-row gap-10 sm:gap-0 py-[5vh]">
                 <div className="w-full sm:w-1/2">NoparuStore</div>
-                <div className="flex gap-7 sm:gap-20">
+                <div className="grid grid-cols-2 gap-y-10 sm:gap-y-0 sm:flex sm:gap-20">
                     <div className="flex flex-col gap-3">
                         <h1 className='text-sm subtitle'>Product</h1>
                         <span>Overview</span>

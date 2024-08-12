@@ -12,11 +12,11 @@ const HomePage = () => {
                 {/* Category Title */}
                 <div className="w-full flex items-center justify-between px-[3vh] sm:px-[5vh] py-[4vh]">
                     <div className="font-medium">Shop By Category</div>
-                    <div className="font-normal">See All</div>
+                    <div className="text-sm subtitle">See All</div>
                 </div>
 
                 {/* Category Content */}
-                <div className="w-full flex items-center px-[3vh] sm:px-[5vh] gap-[2vh] overflow-x-auto">
+                <div className="w-full flex items-center px-[3vh] sm:px-[5vh] gap-[2vh] overflow-x-auto scrollbar-thin scrollbar-thumb-zinc-300 scrollbar-track-zinc-100">
                     {/* Category Bubble */}
                     <div className="flex flex-col items-center gap-[1vh]">
                         <div className="w-16 h-16 rounded-full bg-zinc-200"></div>
@@ -46,11 +46,11 @@ const HomePage = () => {
                 {/* Curated For You Title */}
                 <div className="w-full flex items-center justify-between px-[3vh] sm:px-[5vh] py-[4vh]">
                     <div className="font-medium">Curated For You</div>
-                    <div className="font-normal">See All</div>
+                    <div className="text-sm subtitle">See All</div>
                 </div>
 
                 {/* Curated For You Content */}
-                <div className="w-full flex items-center px-[3vh] sm:px-[5vh] gap-[5vh] overflow-x-auto">
+                <div className="w-full flex items-center px-[3vh] sm:px-[5vh] gap-[5vh] overflow-x-auto scrollbar-thin scrollbar-thumb-zinc-300 scrollbar-track-zinc-100">
                     <Card />
                     <Card />
                     <Card />
